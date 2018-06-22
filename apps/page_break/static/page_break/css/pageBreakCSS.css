@@ -1,0 +1,75 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.wrapper{
+    border:1px solid black;
+    min-width:1000px;
+}
+form p{
+    display:inline-block;
+}
+.header{
+    background:rgb(53, 102, 238);
+}
+.header p{
+    color:white;
+    font-size:34pt;
+    width:fit-content;
+    margin:auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+}
+p>input{
+    margin-left:20px;
+}
+.top form{
+    margin-left:30px;
+    margin-right:10px;
+    
+}
+.top{
+    padding-top:20px;
+    background:rgb(110, 135, 245);
+    padding-bottom:20px;
+}
+form p{
+    color:white;
+    font-size:13pt;
+}
+form p>input{
+    color:black;
+    border-radius:5px;
+}
+.body{
+    margin:40px;
+    margin-top:20px;
+}
+.table{
+    background:rgb(198, 198, 231);
+}
+.table>*{
+    color:rgb(0, 9, 90);
+}
+.pageNums{
+    text-align:right;
+    margin-right:30px;
+    margin-top:20px;
+}
+.pageNums>*{
+    width:fit-content;
+    display:inline-block;
+    margin:0px;
+    font-size:14pt;
+    margin:0px 6px;
+}
+.pageNums>a{
+    font-weight:bold;
+    border:1px solid navy;
+    padding:2px 8px;
+    color:rgb(0, 0, 78);
+}
+.pageNums>a.current{
+    background:rgb(0, 0, 78);
+    color:white;
+}
